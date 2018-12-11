@@ -89,7 +89,7 @@ class Menu extends React.Component{
     render(){
         return(
             <body id="cartid">
-                <div className="body-showcase">Weeallpaper</div>
+                <div className="body-showcase">Wallpaper</div>
                 <div className="body-title">Menu</div>
                 <div className="body-main">
                     <SearchBar search={this.searchEvent.bind(this)}/>
