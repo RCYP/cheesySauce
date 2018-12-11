@@ -1,0 +1,96 @@
+header{
+  width: 100%;
+  height: 1.5rem;
+  background-color: crimson;
+  font-size: 1rem;
+}
+.header-navBar{
+    position: relative;
+    float: left;
+    top: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translate(0%,-50%);
+    background-image: url(../assets/navigationBar.svg),none;
+    background-color: transparent;
+    background-size: contain;
+    border: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header-title{
+    position: relative;
+    bottom: 0%;
+  }
+  .header-login{
+      position: relative;
+      float: right;
+      top: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      transform: translate(0%,-50%);
+      background-image: url(../assets/user.svg),none;
+      background-color: transparent;
+      background-size: contain;
+      border-color: orange;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .navigationHider{
+    position: fixed;
+    height: 100%;
+    background-color: #ffffff00;
+    background-blend-mode: color;
+    top: 0;
+    right: 0;
+  }
+  .navigationDrawer{
+    height: 100%;
+    width: 0vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .navigationHeader{
+    border-bottom: 1vh solid orangered;
+    display: flex;
+    justify-content: stretch;
+    height: fit-content;
+  }
+  .navigationClose{
+    flex-grow: 1;
+    background-color: transparent;
+    background-image: url(../assets/close.svg),none;
+    border: none;
+    background-size: contain;
+    border-color: orange;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #818181;
+    transition: 0.3s;
+  }
+  .SiteMapText{
+    text-align: center;
+    font-size: 0.8rem;
+    color: red;
+    flex-grow: 1;
+  }
+  .links{
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 0.5rem;
+    color: red;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+  }
+  .links:hover{
+    color: #818181;
+  }

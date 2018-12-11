@@ -1,0 +1,44 @@
+.filterContainer{
+    display: flex;
+    justify-content: space-around;
+    height: 0.5rem;
+}
+.searchBar{
+    flex-grow: 3;
+    border-radius: 0.2rem;
+    background-color: white;
+}
+.searchButton{
+    flex-basis: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/user.svg),none;
+}
+.searchButton:hover{
+    background-image: url(../assets/logo.svg),none;
+}
+.filterButton{
+    flex-grow: 3;
+    font-size: .36rem;
+}
+#all{
+    
+}
+#veg{
+
+}
+#nonveg{
+
+}
+.typeContainer{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.typeButton{
+    flex-grow: 3;
+    font-size: .36rem;
+}

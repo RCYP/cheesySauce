@@ -1,0 +1,32 @@
+.checkOut-title{
+    background-color: palevioletred;
+    color: aliceblue;
+    width: 100%;
+}
+.checkout-body{
+    width: 100%;
+    display: flex;
+}
+.checkOut-info{
+    width: 100%;
+}
+.checkout-cart{
+    width: 100%;
+}
+.inputText{
+    font-size: 0.5rem;
+}
+.textInputs{
+    
+    font-size: 0.5rem;
+}
+.inputError{
+    font-size: 0.5rem;
+}
+.comboInputs{
+    font-size: 0.5rem;
+}
+.checkout-Confirm{
+    font-size: 0.5rem;
+    width: 100%;
+}

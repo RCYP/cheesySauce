@@ -1,0 +1,20 @@
+footer{
+    background-color: black;
+    font-size: 0.8rem;
+    color: #818181;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    color: darkred;
+    flex-grow: 1;
+    font-size: 0.3rem;
+    display: inline-block;
+}
+.copyright{
+    font-size: 0.2rem;
+    text-align: center;
+}
