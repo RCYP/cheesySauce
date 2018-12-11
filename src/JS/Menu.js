@@ -90,7 +90,7 @@ class Menu extends React.Component{
         return(
             <body id="cartid">
                 <div className="body-showcase">Weeallpaper</div>
-                <div className="body-title">Menu</div>
+                <div className="body-title">Meeenu</div>
                 <div className="body-main">
                     <SearchBar search={this.searchEvent.bind(this)}/>
                         <div class="itemList">
