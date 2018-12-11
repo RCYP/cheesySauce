@@ -8,7 +8,7 @@ import firebase from "firebase";
 <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyCOy58fJ662TwDQgIRbq3DD1cLL-hMva9E",
+    apiKey: "",
     authDomain: "cheesy-sauce.firebaseapp.com",
     databaseURL: "https://cheesy-sauce.firebaseio.com",
     projectId: "cheesy-sauce",
